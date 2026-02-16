@@ -52,7 +52,7 @@ const Dashboard = () => {
                 className="p-[20px] w-[48%] transition-all duration-300 group-hover:shadow-[0_0_30px_rgba(59,130,246,0.7)] group-hover:scale-105"
                 width={100}
                 height={100}
-                src="/assets/mama.png"
+                src="/assets/bg.png"
                 alt="Character Photo"
               />
             </div>
