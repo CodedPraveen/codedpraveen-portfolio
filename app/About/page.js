@@ -1,12 +1,10 @@
 import React from "react";
 import Navbar from "../conmponent/Navbar";
 import Footer from "../conmponent/Footer";
-import BG from "../conmponent/BG";
 
 const About = () => {
   return (
     <>
-      <BG />
       <Navbar />
       <main className="text-white">
         <div className="about px-20 py-3">
