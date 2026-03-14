@@ -4,15 +4,15 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <header className="text-gray-400 body-font h-18">
-        <div className="container mx-auto flex flex-wrap p-5  flex-col md:flex-row items-center">
-          <a className="flex title-font font-medium items-center text-gray-200 mb-4 md:mb-1">
+      <header className="text-gray-400 body-font h-44 md:h-18">
+        <div className="container mx-auto flex justify-center p-5 flex-col md:flex-row items-center">
+          <a href="/" className="flex title-font font-medium items-center text-gray-200 mb-4 md:mb-1">
             <span className="text-blue-950 text-xl font-bold">&lt;</span>
 
             <span className=" text-2xl">CodedPraveen</span>
             <span className="text-blue-950 text-xl font-bold"> /&gt;</span>
           </a>
-          <nav className="md:ml-auto flex flex-wrap items-center justify-center gap-3 text-lg">
+          <nav className="md:ml-auto flex items-center justify-center gap-1 md:gap-3 text-lg">
             <Link href="/" className="mr-5 hover:text-gray-200">
               Home
             </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link href="/" className="mr-5 hover:text-gray-200">
               language
             </Link>
-            <Link href="/" className="mr-5 hover:text-gray-200">
+            <Link href="/project" className="mr-5 hover:text-gray-200">
               Project
             </Link>
           </nav>
