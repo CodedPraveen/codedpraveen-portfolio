@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link href="/" className="mr-5 hover:text-gray-200">
               language
             </Link>
-            <Link href="/project" className="mr-5 hover:text-gray-200">
+            <Link href="/projects" className="mr-5 hover:text-gray-200">
               Project
             </Link>
           </nav>
