@@ -66,7 +66,7 @@ const Dashboard = () => {
                 <Image width={100} height={100} className="w-24 h-auto md:w-24 md:h-auto invert" src="/assets/HTML5_logo.png" alt="HTML5" />
               </li>
               <li>
-                <Image width={100} height={100} className="w-[68] h-auto md:w-20 md:h-auto invert" src="/assets/CSS3_Logo.png" alt="CSS3" />
+                <Image width={100} height={100} className="w-[68] h-auto md:w-[70] md:h-auto invert" src="/assets/CSS3_Logo.png" alt="CSS3" />
               </li>
               <li>
                 <Image width={100} height={100} className="w-[90] h-auto md:w-24 md:h-auto pt-1 " src="/assets/javascript.jpg" alt="JavaScript" />
@@ -75,10 +75,10 @@ const Dashboard = () => {
                 <Image width={100} height={100} className="w-[80] h-auto md:w-24 md:h-auto " src="/assets/react_logo.svg" alt="React" />
               </li>
               <li>
-                <Image width={100} height={100} className="w-[95] h-auto md:w-24 md:h-auto" src="/assets/nextjs.svg" alt="Next.js" />
+                <Image width={100} height={100} className="w-[95] h-auto md:w-32 md:h-auto" src="/assets/nextjs.svg" alt="Next.js" />
               </li>
               <li>
-                <Image width={100} height={100} className="w-[100] h-auto md:w-24 md:h-auto" src="/assets/MongoDB_Logo.svg" alt="MongoDB" />
+                <Image width={100} height={100} className="w-[100] h-auto md:w-36 md:h-auto" src="/assets/MongoDB_Logo.svg" alt="MongoDB" />
               </li>
             </ul>
           </div>

@@ -7,67 +7,71 @@ const About = () => {
     <>
       <Navbar />
       <main className="text-white">
-        <div className="about px-20 py-3">
-          <h1 className="font-bold text-xl  underline-offset-4 ">About Me</h1>
-          <p className="font-semibold py-2">
-            {/* <p> Hey, My name is Praveen Kumar </p>  */}
-            Hi, I’m <span>Praveen Kumar</span>, a self-taught Full Stack Web
+        <div className="about px-10 md:px-20 text-xl">
+          <h1 className="font-bold text-2xl relative left-[100] md:left-[45%] w-fit">About Me</h1>
+          <p className="font-semibold text-lg py-4 md:py-6">
+            Hi,
+            <br />
+            I’m <span className="text-blue-300 font-bold">Praveen Kumar</span>, <br /> A self-taught Full Stack Web
             Developer. I don’t have a formal CS degree, but I’ve built my skills
             through hands-on practice and real projects.
           </p>
 
-          <div className="font-bold ">💻 Skills </div>
-          <ul className="skills flex gap-[120px] justify-center py-2">
-            <li className="px-[0] font-bold list-disc">
-              HTML, CSS, Tailwind CSS
+          <div className="font-bold text-blue-300">💻 Skills </div>
+          <ul className="flex flex-col md:flex-row gap-4 list-disc md:list-none md:gap-28 justify-center py-5 relative md:right-5">
+            <li className="font-bold ">
+              Frontend with Tailwind CSS
             </li>
 
-            <li className="px-[0] font-bold list-disc">JavaScript, React</li>
+            <li className="font-bold ">JavaScript, React</li>
 
-            <li className="px-[0] font-bold list-disc">MongoDB</li>
+            <li className="font-bold ">MongoDB</li>
 
-            <li className="px-[0] font-bold list-disc">Git & GitHub</li>
+            <li className="font-bold ">Git & GitHub</li>
 
-            <li className="px-[0] font-bold list-disc">Postman</li>
+            <li className="font-bold ">Postman</li>
 
-            <li className="px-[0] font-bold list-disc">
-              Currently learning Next.js
+            <li className="font-bold ">
+              Next.js
             </li>
           </ul>
-          
 
-          <div className="font-">
+
+          <div className="font-semibold text-lg">
             {" "}
-            (⊙_⊙)？What I’m Looking For
-            <span className="newline py-2">
-              –→ I’m seeking a Web Development Internship where I can:
-            </span>
+            <span className="text-blue-400">(⊙_⊙)？</span> What I’m Looking For
+            <div className="newline h-12 flex items-center relative right-6">
+              <p className="mr-2 relative bottom-4 md:bottom-0">→</p>
+              I’m seeking a Web Development Internship where I can :
+            </div>
           </div>
 
-          <ul>
-            <li className="px-[0] py-[10px] font-bold list-disc">
+          <ul className="font-semibold text-lg flex flex-col py-1 gap-4">
+            <li className="font-bold list-disc">
               {" "}
-              Work on real-world projects
+              Work on real-world projects,
             </li>
 
-            <li className="px-[0] py-[10px] font-bold list-disc">
+            <li className="font-bold list-disc">
               {" "}
-              Learn from experienced developers
+              Learn from experienced developers,
             </li>
 
-            <li className="px-[0] py-[10px] font-bold list-disc">
+            <li className="font-bold list-disc">
               {" "}
-              Improve my frontend and backend skills
+              Improve my frontend and backend skills.
             </li>
           </ul>
 
-          <p className="font-semibold">
+          <div className="font-semibold relative right-6">
             {" "}
-            → I’m quick to learn, consistent, and serious about growing as a
-            developer.
-          </p>
-          
-          <p className="font-semibold py-2"> ⟫⟫⟫ Mindset</p>
+            <div className="newline h-24 md:h-14 flex items-center ">
+              <p className="mr-2 relative bottom-7 md:bottom-0">→</p>I’m quick to learn, consistent, and serious about growing as a
+              developer.
+            </div>
+          </div>
+
+          <p className="font-semibold pt-2 pb-3 relative right-6">⟫⟫ Mindset</p>
 
           <p className="font-semibold">
             {" "}
@@ -75,7 +79,6 @@ const About = () => {
             continuously improving.{" "}
           </p>
         </div>
-        <div className="h-42"></div>
       </main>
       <Footer />
     </>
