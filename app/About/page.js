@@ -40,7 +40,7 @@ const About = () => {
           <div className="font-semibold text-lg">
             {" "}
             <span className="text-blue-400">(⊙_⊙)？</span> What I’m Looking For
-            <div className="newline h-12 flex items-center relative right-6">
+            <div className="newline h-12 flex items-center relative top-1 right-6 w-[300]">
               <p className="mr-2 relative bottom-4 md:bottom-0">→</p>
               I’m seeking a Web Development Internship where I can :
             </div>
@@ -65,8 +65,8 @@ const About = () => {
 
           <div className="font-semibold relative right-6">
             {" "}
-            <div className="newline h-24 md:h-14 flex items-center ">
-              <p className="mr-2 relative bottom-7 md:bottom-0">→</p>I’m quick to learn, consistent, and serious about growing as a
+            <div className="newline h-24 md:h-14 flex items-center w-[300]">
+              <p className="mr-1 relative bottom-7 md:bottom-0">→</p>I’m quick to learn, consistent, and serious about growing as a
               developer.
             </div>
           </div>
