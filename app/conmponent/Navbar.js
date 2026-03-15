@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <header className="text-gray-400 body-font h-44 md:h-18">
-        <div className="container mx-auto flex justify-center p-5 flex-col md:flex-row items-center">
+        <div className="container mx-auto flex justify-center p-5 pb-0 flex-col md:flex-row items-center">
           <a href="/" className="flex title-font font-medium items-center text-gray-200 mb-4 md:mb-1">
             <span className="text-blue-950 text-xl font-bold">&lt;</span>
 

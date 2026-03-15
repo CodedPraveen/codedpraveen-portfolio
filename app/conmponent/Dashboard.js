@@ -5,18 +5,18 @@ import TypeJS from "./TypeJS";
 const Dashboard = () => {
   return (
     <>
-      <main className=" ">
+      <main className="md:my-3">
         <section className="text-white w-full">
-          <div className="firstSection flex justify-around items-center w-full h-fit md:h-full md:pl-16 ">
-            <div className="leftSection text-[3em] m-5 mb-0 w-full md:w-3/5 flex flex-col md:gap-10">
-              <div className="flex flex-col gap-5">
+          <div className="flex justify-around items-center w-full h-fit md:h-full md:pl-16 ">
+            <div className="text-[3em] mx-6 w-full md:w-3/5 flex flex-col md:gap-10">
+              <div className="flex flex-col gap-5 md:my-3">
                 <div className="">
                   <span> Hi, My name is</span>
                   <span className="text-[#3e2987]"> Praveen</span>
                 </div>
 
 
-                <div className="text-3xl md:text-4xl font-bold h-24 h-32 md:h-auto text-start">
+                <div className="text-3xl md:text-4xl font-bold h-24  md:h-auto text-start">
                   I am a{" "}
                   <br className="block md:hidden" />
                   <TypeJS
@@ -25,29 +25,29 @@ const Dashboard = () => {
                   />
                 </div>
               </div>
-              <div className="Resume+Github md:py-[20px] border-none rounded-full no-underline text-xl mx-[0] ">
-                <button className="no-underline cursor-pointer text-[#c5c4c4] mr-[15px] p-[13px] pl-0 rounded-[10px]">
+              <div className="md:py-[20px] border-none rounded-full no-underline text-xl flex flex-col md:flex-row gap-3 w-full md:w-fit mb-7 md:mb-0 relative md:right-5">
+                <button className="no-underline cursor-pointer font-bold text-[#c5c4c4] mr-[15px] p-[13px] pl-0 rounded-[10px] hover:bg-gray-100 hover:text-black w-full md:w-fit md:px-5">
                   <a
-                    className="no-underline hover:underline"
+                    className="no-underline md:hover:underline"
                     href="./assets/PraveenKumar_resume.pdf" target="_blank"
                   >
                     Download Resume
                   </a>
                 </button>
-                <button className="bg-[#b3bbbe] font-bold p-2 rounded-lg text-black hover:underline no-underline">
+                <button className="bg-[#b3bbbe] font-bold p-2 rounded-lg text-black md:hover:underline no-underline hover:bg-gray-100 hover:text-black w-full md:w-fit md:px-5">
                   <a href="https://github.com/CodedPraveen">Visit Github</a>
                 </button>
               </div>
-                <div className="flex w-full h-32 md:h-auto text-start">
-                  <div className="w-full font-bold md:py-[30px] text-white text-2xl ">
-                    Ready for{" "}
-                    <br className="block md:hidden" />
-                    <TypeJS
-                      strings={["Internship.", "Learning.", "Working with team."]}
-                      className="text-green-500"
-                    />
-                  </div>
+              <div className="flex w-full h-32 md:h-auto text-start">
+                <div className="w-full font-bold md:py-[30px] text-white text-2xl ">
+                  Ready for{" "}
+                  <br className="block md:hidden" />
+                  <TypeJS
+                    strings={["Internship.", "Learning.", "Working with team."]}
+                    className="text-green-500"
+                  />
                 </div>
+              </div>
             </div>
             <div className="group w-2/5 overflow-hidden rounded-xl hidden md:block">
               <Image
