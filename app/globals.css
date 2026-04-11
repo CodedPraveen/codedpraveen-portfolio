@@ -1,1 +1,73 @@
 @import "tailwindcss";
+
+:root {
+  --surface: rgba(15, 23, 42, 0.65);
+  --surface-border: rgba(148, 163, 184, 0.12);
+  --accent: #818cf8;
+  --accent-2: #34d399;
+  --glow: rgba(99, 102, 241, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  color: #e2e8f0;
+}
+
+::selection {
+  background: rgba(129, 140, 248, 0.35);
+  color: #f8fafc;
+}
+
+.glass {
+  background: var(--surface);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--surface-border);
+  box-shadow: 0 24px 80px -32px var(--glow);
+}
+
+.section-fade {
+  animation: section-fade 0.85s ease-out both;
+}
+
+@keyframes section-fade {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-fade {
+    animation: none;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, #a5b4fc, #818cf8 40%, #34d399);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tech-icon {
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.tech-icon:hover {
+  transform: translateY(-4px) scale(1.04);
+  filter: drop-shadow(0 8px 20px rgba(129, 140, 248, 0.35));
+}
