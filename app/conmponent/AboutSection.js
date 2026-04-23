@@ -13,7 +13,7 @@ export default function AboutSection() {
           >
             About <span className="gradient-text">me</span>
           </h2>
-          <p className="mx-auto mb-12 max-w-2xl text-center text-slate-400">
+          <p className="mx-auto mb-10 max-w-2xl text-center text-slate-400">
             Self-taught full-stack developer building skills through shipping real
             projects.
           </p>

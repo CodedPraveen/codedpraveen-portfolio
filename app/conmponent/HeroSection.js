@@ -11,7 +11,7 @@ export default function HeroSection() {
       className="relative scroll-mt-24 md:scroll-mt-28"
       aria-labelledby="hero-heading"
     >
-      <div className="mx-auto max-w-6xl px-4 pt-2 pb-16 md:px-6 md:pb-24 md:pt-8">
+      <div className="mx-auto max-w-6xl px-4 pt-2 pb-16 md:px-6 md:pb-14 md:pt-8">
         <div className="glass section-fade rounded-3xl px-5 py-10 md:px-10 md:py-14">
           <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-xl space-y-6">
@@ -38,14 +38,6 @@ export default function HeroSection() {
                 <TypeJS strings={readyStrings} className="text-emerald-400" />
               </div>
               <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <a
-                  href="/assets/PraveenKumar_resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-6 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition hover:bg-indigo-400"
-                >
-                  Download resume
-                </a>
                 <a
                   href="https://github.com/CodedPraveen"
                   target="_blank"

@@ -6,13 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "blog:screenshots": "node scripts/capture-blog-screenshots.mjs"
   },
   "dependencies": {
     "flowbite": "^4.0.1",
     "next": "16.1.6",
+    "puppeteer": "^24.42.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "shiki": "^4.0.2",
     "typed.js": "^3.0.0",
     "update": "^0.7.4"
   },
